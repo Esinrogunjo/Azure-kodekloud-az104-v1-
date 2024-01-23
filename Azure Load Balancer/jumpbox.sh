@@ -14,7 +14,7 @@ echo "Setting up webserver-0$i VM"
 sudo apt install apache2 -y
 sudo chmod -R -v 777 /var/www/
 sudo curl "https://raw.githubusercontent.com/Esinrogunjo/Azure-kodekloud-az104-v1-/main/Azure%20Load%20Balancer/sample.html" > /var/www/html/index.html
-sed -i "s/PAGECOLOR/${colors[$i]}/g" /var/www/html/index.html
+sudo sed -i "s/PAGECOLOR/${colors[$i]}/g" /var/www/html/index.html
 exit
 '"
 done
