@@ -114,7 +114,7 @@ $Params = @{
     Publisher          = 'Microsoft.Azure.Extensions'
     ExtensionType      = 'CustomScript'
     TypeHandlerVersion = '2.1'
-    Settings          = @{fileUris = @('https://raw.githubusercontent.com/rithinskaria/kodekloud-azure/main/Azure%20Load%20Balancer/jumpbox.sh'); commandToExecute = './jumpbox.sh'}
+    Settings          = @{fileUris = @('https://raw.githubusercontent.com/Esinrogunjo/Azure-kodekloud-az104-v1-/main/Azure%20Load%20Balancer/jumpbox.sh'); commandToExecute = './jumpbox.sh'}
 }
 Set-AzVMExtension @Params
 
